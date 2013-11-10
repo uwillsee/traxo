@@ -1,0 +1,141 @@
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, li, p, a, span, img, blockquote, table, tr, th, td, input, textarea, select {
+    padding: 0;
+    margin: 0
+}
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #000;
+    font-size:14px;
+    background: #3a91da;
+    vertical-align: baseline;
+    font-weight: normal;
+}
+table, tr, th, td {
+    border-collapse: collapse;
+    border: none
+}
+input, textarea {
+    font-family: OpenSansRegular, Arial, sans-serif;
+    color: #000;
+    outline: 0;
+}
+a {
+    cursor: pointer;
+    color:#3a78db;
+}
+.isNotTouch a:hover {
+    color:#3a78db;
+}
+img {
+    border: none
+}
+.clear{
+    clear: both;
+    overflow: hidden;
+}
+.veneer{
+    clear: both;
+    overflow: hidden;
+    font-size:0;
+}
+ul, ol {
+    list-style: none
+}
+a:active, .noFocus, .noFocus:focus {
+    outline: none;
+}
+
+.noResize {
+    resize: none
+}
+.noSelect {
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.no-wrap {
+    white-space: nowrap
+}
+
+/* @elements*/
+/* @button-signup */
+.button-signup {
+    background: rgba(212, 235, 255, .55);
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    color: #225580;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 3px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+.isNotTouch .button-signup:hover{
+    color: #225580;
+    background: rgba(212, 235, 255, .65);
+}
+.button-signup-inner {
+    padding: 6px 16px 5px;
+}
+/* @button-logout*/
+.button-login {
+    background: rgba(0,0,0,.3);
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFF;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 3px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button-login-inner {
+    padding: 6px 16px 5px;
+}
+
+.isNotTouch .button-login:hover{
+    color: #FFF;
+    background: rgba(0,0,0,.2);
+}
+
+/* @header */
+
+.header {
+    width: 1060px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 12px;
+    display: block;
+    width: 228px;
+    height: 107px;
+    background: url(../images/logo.png) no-repeat;
+}
+.site-title {
+    font-family: Georgia, serif;
+    font-size: 46px;
+    line-height: 56px;
+    font-style: italic;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,.42);
+    text-align: center;
+    padding-top: 30px;
+}
+.header-actions{
+    position: absolute;
+    top:37px;
+    right: 59px;
+}
+.header-actions .button-signup{
+    margin-right: 8px;
+}
