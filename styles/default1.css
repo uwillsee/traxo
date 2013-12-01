@@ -80,7 +80,7 @@ a:active, .noFocus, .noFocus:focus {
 .button-signup-inner {
     padding: 6px 16px 5px;
 }
-/* @button-logout*/
+/* @button-login*/
 .button-login {
     background: rgba(0,0,0,.3);
     font-family: Helvetica, sans-serif;
@@ -139,3 +139,65 @@ a:active, .noFocus, .noFocus:focus {
 .header-actions .button-signup{
     margin-right: 8px;
 }
+
+.content {
+    width: 1060px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.ava {
+    width: 39px;
+    height: 39px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+.content-title1 {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    line-height: 20px;
+    color: #161c1f;
+    display: inline-block;
+    min-height: 64px;
+    vertical-align: top;
+    margin-top: 50px;
+   }
+
+.picture {
+    position: relative;
+    width: 537px;
+    height: 501px;
+    margin-top: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../images/iphone.png) no-repeat;
+}
+
+.content-title2 {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    line-height: 20px;
+    color: #42515a;
+    display: inline-block;
+    margin-top: 140px;
+    /*vertical-align: middle ;*/
+    min-height: 64px;
+}
+
+.content-title3 {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    line-height: 20px;
+    color: #42515a;
+    display: inline-block;
+    margin-top: 141px;
+    /*vertical-align: middle ;*/
+    min-height: 64px;
+}
+
+.content-title-action {
+    position: relative;
+    left: 70px;
+}
+
