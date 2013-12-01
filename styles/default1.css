@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'deliusregular';
+    src: url('../fonts/delius-regular.eot');
+    src: url('../fonts/delius-regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/delius-regular.woff') format('woff'),
+    url('../fonts/delius-regular.ttf') format('truetype'),
+    url('../fonts/delius-regular.svg#deliusregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, li, p, a, span, img, blockquote, table, tr, th, td, input, textarea, select {
     padding: 0;
     margin: 0
@@ -26,6 +37,7 @@ a {
 .isNotTouch a:hover {
     color:#3a78db;
 }
+
 img {
     border: none
 }
@@ -140,64 +152,118 @@ a:active, .noFocus, .noFocus:focus {
     margin-right: 8px;
 }
 
-.content {
+.about-traxo {
     width: 1060px;
+    height: 530px;
     margin: 0 auto;
+    margin-top: 40px;
     position: relative;
 }
 
-.ava {
+.about-traxo-description-picture {
+    top: 0;
+    position: absolute;
+}
+
+.about-traxo-description_1 .about-traxo-description-picture{
+    background: url("../images/info.png") no-repeat;
     width: 39px;
     height: 39px;
-    display: inline-block;
-    margin-right: 20px;
-    margin-top: 50px;
+
 }
-.content-title1 {
+.about-traxo-description_1 {
+    top:10px;
+}
+
+.about-traxo-description_2 .about-traxo-description-picture{
+    background: url("../images/plane.png") no-repeat;
+    width: 39px;
+    height: 39px;
+
+}
+.about-traxo-description_2 {
+top: 210px;
+}
+
+.about-traxo-description_3 .about-traxo-description-picture{
+    background: url("../images/star.png") no-repeat;
+    width: 39px;
+    height: 39px;
+
+}
+.about-traxo-description_3 {
+    top: 410px;
+}
+
+.about-traxo-description_4 .about-traxo-description-picture{
+    background: url("../images/compass.png") no-repeat;
+    width: 39px;
+    height: 43px;
+}
+.about-traxo-description_4 {
+    top:10px;
+}
+
+.about-traxo-description_5 .about-traxo-description-picture{
+    background: url("../images/world.png") no-repeat;
+    width: 38px;
+    height: 37px;
+}
+.about-traxo-description_5 {
+    top: 210px;
+}
+
+.about-traxo-description_6 .about-traxo-description-picture{
+    background: url("../images/hand.png") no-repeat;
+    width: 36px;
+    height: 36px;
+}
+.about-traxo-description_6 {
+    top: 410px;
+}
+
+.about-traxo-description-left .about-traxo-description-picture {
+    left: 0;
+}
+
+.about-traxo-description-right .about-traxo-description-picture {
+    right: 0;
+}
+
+.about-traxo-description-left {
+    left: 0;
+    padding-left: 60px;
+}
+
+.about-traxo-description-right {
+    right: 0;
+    padding-right: 60px;
+    text-align: right;
+}
+
+.about-traxo-description-text {
     font-family: Georgia, serif;
     font-size: 18px;
     line-height: 20px;
-    color: #161c1f;
-    display: inline-block;
-    min-height: 64px;
-    vertical-align: top;
-    margin-top: 50px;
-   }
+    color: #42515a;
+    font-family: 'deliusregular';
+}
 
-.picture {
-    position: relative;
+.isNotTouch .about-traxo-description:hover .about-traxo-description-text{
+    color: #161c1f;
+}
+
+.about-traxo-picture {
+    position: absolute;
+    left: 50%;
+    margin-left: -265.5px;
     width: 537px;
     height: 501px;
-    margin-top: 36px;
-    margin-left: auto;
-    margin-right: auto;
     background: url(../images/iphone.png) no-repeat;
 }
 
-.content-title2 {
-    font-family: Georgia, serif;
-    font-size: 18px;
-    line-height: 20px;
-    color: #42515a;
-    display: inline-block;
-    margin-top: 140px;
-    /*vertical-align: middle ;*/
-    min-height: 64px;
-}
-
-.content-title3 {
-    font-family: Georgia, serif;
-    font-size: 18px;
-    line-height: 20px;
-    color: #42515a;
-    display: inline-block;
-    margin-top: 141px;
-    /*vertical-align: middle ;*/
-    min-height: 64px;
-}
-
-.content-title-action {
-    position: relative;
-    left: 70px;
+.about-traxo-description {
+    position: absolute;
+    height: 256px;
 }
 
