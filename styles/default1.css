@@ -166,23 +166,26 @@ a:active, .noFocus, .noFocus:focus {
 }
 
 .about-traxo-description_1 .about-traxo-description-picture{
-    background: url("../images/info.png") no-repeat;
+    background: url("../images/icon/info.png") no-repeat;
     width: 39px;
     height: 39px;
+}
 
+.isNotTouch .about-traxo-description_1:hover .about-traxo-description-picture{
+    background: url("../images/icon/info_hover.png") no-repeat;
 }
 
 .about-traxo-description_1 .about-traxo-description-cursor{
-    background: url("../images/cursor1.png") no-repeat;
+    background: url("../images/cursor/cursor1.png") no-repeat;
     width: 209px;
     height: 66px;
-    margin-left: 192px;
-    margin-top: 17px;
+    left: 250px;
+    top: 17px;
     position: absolute;
     visibility: hidden;
 }
 
-.isNotTouch .about-traxo-description_1:hover .about-traxo-description-cursor{
+.isNotTouch .about-traxo-description:hover .about-traxo-description-cursor{
     visibility: visible;
 }
 
@@ -192,56 +195,50 @@ a:active, .noFocus, .noFocus:focus {
 
 
 .about-traxo-description_2 .about-traxo-description-picture{
-    background: url("../images/plane.png") no-repeat;
+    background: url("../images/icon/plane.png") no-repeat;
     width: 39px;
     height: 39px;
 
 }
 
-.about-traxo-description_2 .about-traxo-description-cursor2{
-    background: url("../images/cursor2.png") no-repeat;
+.isNotTouch .about-traxo-description_2:hover .about-traxo-description-picture{
+    background: url("../images/icon/plane_hover.png") no-repeat;
+}
+
+.about-traxo-description_2 .about-traxo-description-cursor{
+    background: url("../images/cursor/cursor2.png") no-repeat;
     width: 103px;
     height: 48px;
-    margin-left: 161px;
-    margin-top: -17px;
+    left: 221px;
+    top: -17px;
     position: absolute;
     visibility: hidden;
 }
 
-.isNotTouch .about-traxo-description_2:hover .about-traxo-description-cursor2{
-    visibility: visible;
-}
 
 .about-traxo-description_2 {
 top: 210px;
 }
 
 .about-traxo-description_3 .about-traxo-description-picture{
-    background: url("../images/star.png") no-repeat;
+    background: url("../images/icon/star.png") no-repeat;
     width: 39px;
     height: 39px;
 
 }
 
-.about-traxo-description_3 .about-traxo-description-picture{
-    background: url("../images/plane.png") no-repeat;
-    width: 39px;
-    height: 39px;
-
+.isNotTouch .about-traxo-description_3:hover .about-traxo-description-picture{
+    background: url("../images/icon/star_hover.png") no-repeat;
 }
 
-.about-traxo-description_3 .about-traxo-description-cursor3{
-    background: url("../images/cursor3.png") no-repeat;
+.about-traxo-description_3 .about-traxo-description-cursor{
+    background: url("../images/cursor/cursor3.png") no-repeat;
     width: 95px;
     height: 64px;
-    margin-left: 175px;
-    margin-top: -55px;
+    left: 235px;
+    top: -55px;
     position: absolute;
     visibility: hidden;
-}
-
-.isNotTouch .about-traxo-description_3:hover .about-traxo-description-cursor3{
-    visibility: visible;
 }
 
 .about-traxo-description_3 {
@@ -249,23 +246,23 @@ top: 210px;
 }
 
 .about-traxo-description_4 .about-traxo-description-picture{
-    background: url("../images/compass.png") no-repeat;
+    background: url("../images/icon/compass.png") no-repeat;
     width: 39px;
     height: 43px;
 }
 
-.about-traxo-description_4 .about-traxo-description-cursor4{
-    background: url("../images/cursor4.png") no-repeat;
-    width: 104px;
-    height: 49px;
-    margin-left: -110px;
-    margin-top: 24px;
-    position: absolute;
-    visibility: hidden;
+.isNotTouch .about-traxo-description_4:hover .about-traxo-description-picture{
+    background: url("../images/icon/compass_hover.png") no-repeat;
 }
 
-.isNotTouch .about-traxo-description_4:hover .about-traxo-description-cursor4{
-    visibility: visible;
+.about-traxo-description_4 .about-traxo-description-cursor{
+    background: url("../images/cursor/cursor4.png") no-repeat;
+    width: 104px;
+    height: 49px;
+    left: -110px;
+    top: 24px;
+    position: absolute;
+    visibility: hidden;
 }
 
 .about-traxo-description_4 {
@@ -273,48 +270,52 @@ top: 210px;
 }
 
 .about-traxo-description_5 .about-traxo-description-picture{
-    background: url("../images/world.png") no-repeat;
+    background: url("../images/icon/world.png") no-repeat;
     width: 38px;
     height: 37px;
 }
 
-.about-traxo-description_5 .about-traxo-description-cursor5{
-    background: url("../images/cursor5.png") no-repeat;
-    width: 111px;
-    height: 21px;
-    margin-left: -120px;
-    margin-top: -13px;
-    position: absolute;
-    visibility: hidden;
+.isNotTouch .about-traxo-description_5:hover .about-traxo-description-picture{
+    background: url("../images/icon/world_hover.png") no-repeat;
 }
 
-.isNotTouch .about-traxo-description_5:hover .about-traxo-description-cursor5{
-    visibility: visible;
+.about-traxo-description_5 .about-traxo-description-cursor{
+    background: url("../images/cursor/cursor5.png") no-repeat;
+    width: 111px;
+    height: 21px;
+    left: -120px;
+    top: -13px;
+    position: absolute;
+    visibility: hidden;
 }
 
 .about-traxo-description_5 {
     top: 210px;
 }
 
+
+
 .about-traxo-description_6 .about-traxo-description-picture{
-    background: url("../images/hand.png") no-repeat;
+    background: url("../images/icon/hand.png") no-repeat;
     width: 36px;
     height: 36px;
 }
 
-.about-traxo-description_6 .about-traxo-description-cursor6{
-    background: url("../images/cursor6.png") no-repeat;
+.isNotTouch .about-traxo-description_6:hover .about-traxo-description-picture{
+    background: url("../images/icon/hand_hover.png") no-repeat;
+}
+
+.about-traxo-description_6 .about-traxo-description-cursor{
+    background: url("../images/cursor/cursor6.png") no-repeat;
     width: 101px;
     height: 55px;
-    margin-left: -110px;
-    margin-top: -48px;
+    left: -110px;
+    top: -48px;
     position: absolute;
     visibility: hidden;
 }
 
-.isNotTouch .about-traxo-description_6:hover .about-traxo-description-cursor6{
-    visibility: visible;
-}
+
 .about-traxo-description_6 {
     top: 410px;
 }
@@ -361,6 +362,5 @@ top: 210px;
 
 .about-traxo-description {
     position: absolute;
-    height: 256px;
 }
 
