@@ -17,9 +17,10 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     color: #000;
     font-size:14px;
-    background: #3a91da;
+    background: #FFF url(../images/top-bg.jpg) repeat-x 0 0;
     vertical-align: baseline;
     font-weight: normal;
+
 }
 table, tr, th, td {
     border-collapse: collapse;
@@ -175,18 +176,31 @@ a:active, .noFocus, .noFocus:focus {
     background: url("../images/icon/info_hover.png") no-repeat;
 }
 
+
 .about-traxo-description_1 .about-traxo-description-cursor{
     background: url("../images/cursor/cursor1.png") no-repeat;
-    width: 209px;
     height: 66px;
     left: 250px;
     top: 17px;
+}
+
+.about-traxo-description-cursor{
     position: absolute;
-    visibility: hidden;
+    /*visibility: hidden;*/
+    width: 0;
+    -webkit-transition:width 500ms 0s linear;
+       -moz-transition:width 500ms 0s linear;
+        -ms-transition:width 500ms 0s linear;
+         -o-transition:width 500ms 0s linear;
+            transition:width 500ms 0s linear;
 }
 
 .isNotTouch .about-traxo-description:hover .about-traxo-description-cursor{
-    visibility: visible;
+    /*visibility: visible;*/
+}
+
+.isNotTouch .about-traxo-description_1:hover .about-traxo-description-cursor{
+    width: 209px;
 }
 
 .about-traxo-description_1 {
@@ -207,12 +221,13 @@ a:active, .noFocus, .noFocus:focus {
 
 .about-traxo-description_2 .about-traxo-description-cursor{
     background: url("../images/cursor/cursor2.png") no-repeat;
-    width: 103px;
     height: 48px;
     left: 221px;
     top: -17px;
-    position: absolute;
-    visibility: hidden;
+}
+
+.isNotTouch .about-traxo-description_2:hover .about-traxo-description-cursor{
+    width: 103px;
 }
 
 
@@ -233,12 +248,13 @@ top: 210px;
 
 .about-traxo-description_3 .about-traxo-description-cursor{
     background: url("../images/cursor/cursor3.png") no-repeat;
-    width: 95px;
     height: 64px;
     left: 235px;
     top: -55px;
-    position: absolute;
-    visibility: hidden;
+}
+
+.isNotTouch .about-traxo-description_3:hover .about-traxo-description-cursor{
+    width: 95px;
 }
 
 .about-traxo-description_3 {
@@ -255,14 +271,16 @@ top: 210px;
     background: url("../images/icon/compass_hover.png") no-repeat;
 }
 
-.about-traxo-description_4 .about-traxo-description-cursor{
-    background: url("../images/cursor/cursor4.png") no-repeat;
+.isNotTouch .about-traxo-description_4:hover .about-traxo-description-cursor{
     width: 104px;
+
+}
+
+.about-traxo-description_4 .about-traxo-description-cursor{
+    background: url("../images/cursor/cursor4.png") no-repeat 100% 0;
     height: 49px;
-    left: -110px;
+    right: 250px;
     top: 24px;
-    position: absolute;
-    visibility: hidden;
 }
 
 .about-traxo-description_4 {
@@ -280,19 +298,19 @@ top: 210px;
 }
 
 .about-traxo-description_5 .about-traxo-description-cursor{
-    background: url("../images/cursor/cursor5.png") no-repeat;
-    width: 111px;
+    background: url("../images/cursor/cursor5.png") no-repeat 100% 0;
     height: 21px;
-    left: -120px;
+    right: 250px;
     top: -13px;
-    position: absolute;
-    visibility: hidden;
 }
 
 .about-traxo-description_5 {
     top: 210px;
 }
 
+.isNotTouch .about-traxo-description_5:hover .about-traxo-description-cursor{
+    width: 111px;
+}
 
 
 .about-traxo-description_6 .about-traxo-description-picture{
@@ -306,15 +324,15 @@ top: 210px;
 }
 
 .about-traxo-description_6 .about-traxo-description-cursor{
-    background: url("../images/cursor/cursor6.png") no-repeat;
-    width: 101px;
+    background: url("../images/cursor/cursor6.png") no-repeat 100% 0;
     height: 55px;
-    left: -110px;
+    right: 243px;
     top: -48px;
-    position: absolute;
-    visibility: hidden;
 }
 
+.isNotTouch .about-traxo-description_6:hover .about-traxo-description-cursor{
+    width: 101px;
+}
 
 .about-traxo-description_6 {
     top: 410px;
@@ -349,6 +367,9 @@ top: 210px;
 
 .isNotTouch .about-traxo-description:hover .about-traxo-description-text{
     color: #161c1f;
+    top: -2px;
+    position: relative;
+    padding-bottom: 2px;
 }
 
 .about-traxo-picture {
